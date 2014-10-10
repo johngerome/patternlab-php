@@ -1,0 +1,20 @@
+{
+  "name": "patternlab-php",
+  "version": "0.0.0",
+  "homepage": "https://github.com/johngerome/My-Starter-Kit",
+  "authors": [
+    "johngerome <johngerome@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "sassybreakpoint": "~0.0.2",
+    "sassyplaceholder": "~0.0.1"
+  }
+}
