@@ -2,10 +2,10 @@
     $VENDOR-LIBRARIES
 \*------------------------------------------*/
 @import
-     "bower_components/bourbon/dist/bourbon"
-    ,"bower_components/sassy-maps/sass/sassy-maps"
-    ,"bower_components/sassybreakpoint/sassy-breakpoint"
-    ,"bower_components/sassyplaceholder/sassy-placeholder"
+     "../../bower_components/bourbon/dist/bourbon"
+    ,"../../bower_components/sassy-maps/sass/sassy-maps"
+    ,"../../bower_components/sassybreakpoint/sassy-breakpoint"
+    ,"../../bower_components/sassyplaceholder/sassy-placeholder"
 ;
 
 
@@ -16,7 +16,7 @@
     $VARIABLES
 \*------------------------------------------*/
 @import
-    "variaables/variables"
+    "variables/variables"
 ;
 
 
@@ -55,7 +55,7 @@
     $RESET/NORMALIZE
 \*------------------------------------------*/
 @import
-    "vendor/normalize"
+    "../../bower_components/normalize-css/normalize.css"
 ;
 
 
@@ -69,21 +69,21 @@
     ,"atoms/global/colors"
     ,"atoms/global/visibility"
     // Buttons
-    ,"atoms/buttons/button"
+    ,"atoms/buttons/buttons"
     // Forms
     ,"atoms/forms/checkbox"
     ,"atoms/forms/html5-inputs"
-    ,"atoms/radio-buttons"
-    ,"atoms/select-menu"
-    ,"atoms/text-fields"
+    ,"atoms/forms/radio-buttons"
+    ,"atoms/forms/select-menu"
+    ,"atoms/forms/text-fields"
     // Text
     ,"atoms/text/blockquote"
     ,"atoms/text/headings"
     ,"atoms/text/hr"
-    ,"atoms/inline-elements"
-    ,"paragraph"
-    ,"preformatted-text"
-    ,"time"
+    ,"atoms/text/inline-elements"
+    ,"atoms/text/paragraph"
+    ,"atoms/text/preformatted-text"
+    ,"atoms/text/time"
     // Images
     ,"atoms/images/icons"
     ,"atoms/images/logo"
@@ -162,7 +162,7 @@
 \*------------------------------------------*/
 @import
     // Vendor
-    "vendor/_helpers"
+    "vendor/h5bp/helpers"
     // Main
-    ,"utilites/text"
+    ,"utilities/text"
 ;

@@ -14,7 +14,13 @@
     "tests"
   ],
   "devDependencies": {
-    "sassybreakpoint": "~0.0.2",
-    "sassyplaceholder": "~0.0.1"
+    "bourbon": "latest",
+    "neat": "latest",
+    "sassybreakpoint": "latest",
+    "sassyplaceholder": "latest",
+    "sassycache": "latest",
+    "sassy-maps": "latest",
+    "SassyLists": "latest",
+    "normalize-css": "latest"
   }
 }
