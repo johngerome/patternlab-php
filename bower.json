@@ -21,6 +21,6 @@
     "sassycache": "latest",
     "sassy-maps": "latest",
     "SassyLists": "latest",
-    "normalize-css": "latest"
+    "normalize-scss": "latest"
   }
 }
